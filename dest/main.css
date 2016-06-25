@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  color: #66595c;
+  height: 100%;
+  min-width: 1060px;
+  margin: 0;
+  font: 16px/1.7 normal;
+  font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif; }
+
+a {
+  color: #40a977;
+  text-decoration: none; }
+
+.top-bar {
+  height: 43px;
+  padding: 5px 0;
+  font-size: 14px;
+  color: #efeae1;
+  background-color: #584b4f; }
+  .top-bar a {
+    color: #efeae1; }
+    .top-bar a:hover {
+      color: #81c08b; }
+  .top-bar .navigation {
+    display: inline-block; }
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px; }
+  .wrapper.no-pad {
+    padding-left: 0;
+    padding-right: 0; }
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .navigation li {
+    padding-right: 5px;
+    display: inline-block; }
+  .navigation a {
+    padding: 5px;
+    display: inline-block; }
+
+.top-bar-right {
+  float: right;
+  line-height: 33px; }
+
+.call-to-action {
+  position: relative;
+  padding: 50px 0 190px;
+  height: 590px;
+  background-image: url(../public/img/hero-6f5ca4d6a52b063697c029b5e2654ff1.svg), url(../public/img/hero-tile-60e4804d894eddd6f26dd04402365ad2.png);
+  background-position: 50% 0; }
+
+.columns {
+  overflow: hidden; }
+  .columns .column {
+    float: left; }
+    .columns .column:first-child {
+      padding-left: 0;
+      padding-right: 20px; }
+    .columns .column:last-child {
+      padding-left: 20px;
+      padding-right: 0; }
+  .columns .left {
+    width: 50%; }
+  .columns .right {
+    width: 50%; }
+
+.header {
+  text-align: center; }
+
+.header h1 {
+  margin: 0;
+  display: inline-block; }
+
+.header .logo {
+  display: block;
+  width: 290px;
+  height: 60px;
+  line-height: 0;
+  color: #66595c;
+  text-decoration: none;
+  background-image: url(../public/img/logo-4e073dbd4c0ce67ece1b30a6b31253b9.png); }
+
+.call-to-action {
+  text-align: center; }
+
+.call-to-action h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #849189;
+  font-weight: 300; }
+
+.call-to-action .subtitle {
+  display: block;
+  font-size: 0.8em; }
+
+.download-button {
+  display: inline-block;
+  background-color: #ba3525;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0.8em 1.2em;
+  font-size: 16px;
+  color: #efeae1;
+  margin-top: 40px; }
+  .download-button:hover {
+    text-decoration: none;
+    background: #c43627; }
+
+.version-support {
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #849189; }
+
+.video {
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  background: url(../public/img/video-bg-9e8e11bb819e730b5564bd5471accccc.svg) no-repeat; }
+
+.video-button {
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(../public/img/video-button-5c3438d5b0627a33b637c39581fd501b.svg), url(../public/img/video-thumb-197c7e66829e405de386e5b18e037b8c.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto auto, 200px 200px;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.07);
+  border-radius: 100%;
+  outline: none; }
+  .video-button:hover {
+    opacity: 0.9; }
+
+.screenshot-main {
+  margin: 60px 0;
+  display: block;
+  height: 390px;
+  width: 860px;
+  background-image: url(../public/img/screenshot-main-80d8c9841da6ed11c9d87f31136a4ca9.png);
+  border-radius: 5px;
+  box-shadow: 0 14px 12px -10px rgba(0, 8, 26, 0.32); }
+
+.welcome-blurb {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.4;
+  margin-top: 250px;
+  margin-bottom: 60px;
+  text-align: justify; }
+
+.highlight {
+  margin: 60px 0;
+  padding: 60px 0;
+  background-color: #faf6ec; }
+  .highlight h3 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center; }
+
+.features {
+  padding-top: 40px; }
+
+.one-o-feature {
+  width: 32%;
+  padding-left: 26px;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.5; }
+  .one-o-feature:first-child {
+    padding-left: 0; }
+
+.feature-circle {
+  border-radius: 999px;
+  margin: 0 auto;
+  background-color: #e24c38;
+  height: 80px;
+  width: 80px; }
+
+.illustration {
+  display: inline-block;
+  line-height: 0; }
+
+.illustration-packages {
+  background-image: url(../public/img/packages-0fc07ecae73a786761ada738d16ae2ff.gif); }
+
+.why-its-rad .illustration {
+  height: 470px;
+  width: 410px; }
+
+.feature {
+  display: table; }
+  .feature .column {
+    display: table-cell;
+    float: none; }
+  .feature .left {
+    vertical-align: middle;
+    height: 470px; }
+  .feature .right {
+    vertical-align: middle;
+    height: 470px; }
+  .feature h3 {
+    font-weight: 300;
+    font-size: 30px; }
+
+.demo {
+  display: inline-block;
+  width: 410px;
+  height: 342px;
+  background-repeat: no-repeat;
+  background-image: url(../public/img/monitor-82c001f8c76d7f6966282d09b5264e81.png); }
+
+.screen {
+  position: relative;
+  top: 35px;
+  left: 63px;
+  width: 268px;
+  height: 167px;
+  background-image: url(../public/img/demo-5424fd270fc16cb3a3fb5868a0e431bd.gif);
+  display: block; }
+
+.illustration-under-the-hood {
+  background-image: url(../public/img/under-the-hood-f201a3edb6ec5fd91203f2a310a60a6e.gif); }
+
+.screenshot-native-web {
+  width: 410px;
+  height: 330px;
+  background-image: url(../public/img/screenshot-native-web-ec0dd3d6a69245749560c1712d618941.gif); }
+
+.screenshot-open-source {
+  height: 300px;
+  background-image: url(../public/img/open-source-f44fe3a70a514e2aaec10a2c34300bb5.jpg); }
+
+.welcome-contact {
+  background-color: #faf6ec; }
+
+.illustration-contact {
+  background-image: url(../public/img/contact-dd52e58409a8c133fa18fe9e94902c86.gif);
+  height: 470px;
+  width: 410px; }
+
+.footer {
+  background-color: #efeae1;
+  height: 55px;
+  padding: 15px; }
+  .footer a {
+    color: #66595c; }
+  .footer .footer-left {
+    float: left;
+    padding: 0;
+    margin: 0; }
+    .footer .footer-left li {
+      line-height: normal;
+      display: inline-block;
+      margin-right: 15px; }
+  .footer .footer-right {
+    float: right; }
